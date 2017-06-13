@@ -1,0 +1,31 @@
+{
+  "name": "file-generate",
+  "version": "1.0.5",
+  "description": "create init file by file template",
+  "main": "index.js",
+  "bin": {
+      "file-generate": "index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangnianbing/file-generate.git"
+  },
+  "keywords": [
+    "file",
+    "generator",
+    "node",
+    "command"
+  ],
+  "author": "137602812@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangnianbing/file-generate/issues"
+  },
+  "homepage": "https://github.com/yangnianbing/file-generate#readme",
+  "dependencies": {
+    "art-template": "^3.1.3",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "inquirer": "^3.1.0"
+  }
+}
